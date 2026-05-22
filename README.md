@@ -213,8 +213,9 @@ if(reply.is_nack == 1) {
 ```c
 #define SET_BIT(array, k)     ( array[(k)/8] |= (1 << ((k)%8)) )
 #define CHECK_BIT(array, k)   ( array[(k)/8] & (1 << ((k)%8)) )
-```
+
 static uint8_t received_blocks[MAX_TOTAL_BLOCKS / 8];
+```
 
 - Sunucu, bir paketi işleme almadan önce CHECK_BIT ile ilgili alana bakar. Eğer blok daha önce alınmışsa, diski yormadan anında ACK gönderip paketi atlar.
 

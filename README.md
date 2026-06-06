@@ -1,3 +1,5 @@
+Video Linki: https://youtu.be/IpdWqS7xUhk
+
 ## Problemin Tanımı
 
 - Wireless Sensor Networks, genellikle ulaşması güç bölgelerde konuşlandırılan, enerji ve bellek kısıtlarına sahip çokça gömülü sistemden oluşur. Bu cihazların yazılımlarının fiziksel bir kablo bağlantısı ile güncellenmesi pratik değildir. Bu bağlamda OTA mimarisi, WSN cihazlarının uzaktan, güvenilir ve denetimli bir şekilde yeni firmware imajlarıyla güncellenmesini sağlayan bir çözümüdür.
